@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro til HTML & Hello World</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/8a29176b8f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <i class="fas fa-hard-hat logo"></i>
+            <h1 class="header__title">header</h1>
+            <h2 class="header__subtitle">Formular øvelse</h2>
+        </header>
+        <nav>
+            <h1>nav</h1>
+            <ul>
+                <li>
+                    <a class="nav__links" href="./html/about.html">Om os</a>
+                </li>
+                <li>
+                    <a class="nav__links" href="./html/shop.html">shop</a>
+                </li>
+                <li>
+                    <a class="nav__links" href="index.html">Forside</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <article>
+                <h1>article</h1>
+                <p>HTML er vigtigt, når man laver en hjemmeside.</p>
+                <blockquote cite="Martin Luther King, Jr.">"True peace is not merely the absence of tension; it is the presence of justice."<cite>Martin Luther King, Jr.</cite></blockquote>
+
+                <!-- <h1>kontakt formular</h1> -->
+
+
+                <fieldset>
+                    <legend>kontakt formular</legend>
+                    <form action="" method="">
+                        <label for="navn">Navn</label>
+                        <input type="text" name="" id="navn" placeholder="Skriv navn">
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Skriv email">
+
+                        <label for="besked">Skriv besked:</label>
+                        <textarea name="" id="besked" cols="30" rows="10">Skriv her</textarea>
+                        <!-- 
+                        <label for="kode">Kodeord</label>
+                        <input type="password" name="" id="kode" placeholder="Skriv kode"> -->
+
+                        <label for="send">Fortsæt</label>
+                        <input type="submit" id="send" placeholder="Send din besked">
+                    </form>
+                </fieldset>
+            </article>
+            <section>
+                <h1>section</h1>
+                <a href="https://dev.to/">Link til DEV</a>
+                <img src="./img/mig.jpg" alt="Cille i Sverige">
+            </section>
+
+        </main>
+        <footer>
+            <h1>footer</h1>
+            <p>Opgave lavet af Cécile Z.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
