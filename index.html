@@ -35,29 +35,35 @@
                 <h1>article</h1>
                 <p>HTML er vigtigt, når man laver en hjemmeside.</p>
                 <blockquote cite="Martin Luther King, Jr.">"True peace is not merely the absence of tension; it is the presence of justice."<cite>Martin Luther King, Jr.</cite></blockquote>
-
+                <blockquote cite="Martin Luther King, Jr.">"I believe that unarmed truth and unconditional love will have the final word in reality. This is why right, temporarily defeated, is stronger than evil triumphant."</blockquote>
+                <cite>Martin Luther King, Jr. From his 1964 Nobel Peace Prize acceptance speech.</cite>
                 <!-- <h1>kontakt formular</h1> -->
 
+                <br>
+                <br>
 
-                <fieldset>
-                    <legend>kontakt formular</legend>
-                    <form action="" method="">
-                        <label for="navn">Navn</label>
-                        <input type="text" name="" id="navn" placeholder="Skriv navn">
-
-                        <label for="email">Email</label>
+                <form>
+                    <fieldset action="" method="">
+                        <legend>kontakt formular</legend>
+                        <div class="names">
+                            <label for="fornavn">Fornavn:</label>
+                            <input type="text" name="" id="fornavn" placeholder="Skriv fornavn">
+                            <label for="efternavn">Efternavn:</label>
+                            <input type="text" name="" id="efternavn" placeholder="Skriv efternavn">
+                        </div>
+                        <label for="email">Email:</label>
                         <input type="email" id="email" placeholder="Skriv email">
 
                         <label for="besked">Skriv besked:</label>
-                        <textarea name="" id="besked" cols="30" rows="10">Skriv her</textarea>
+                        <textarea name="" id="besked" cols="30" rows="10" placeholder="Skriv besked her"></textarea>
                         <!-- 
                         <label for="kode">Kodeord</label>
                         <input type="password" name="" id="kode" placeholder="Skriv kode"> -->
 
                         <label for="send">Fortsæt</label>
-                        <input type="submit" id="send" placeholder="Send din besked">
-                    </form>
-                </fieldset>
+                        <input type="submit" id="send" value="SEND BESKED">
+                    </fieldset>
+                </form>
             </article>
             <section>
                 <h1>section</h1>
